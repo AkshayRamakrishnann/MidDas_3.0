@@ -12,5 +12,6 @@ The script utilizes the Hugging Face Transformers library to access the pre-trai
 
 ## Output
 The output of the provided code will be an image representing the estimated depth map of the scene depicted in the input image. This depth map provides information about the distance of objects from the camera in the original image. The output image will display varying shades of gray, where lighter shades correspond to objects closer to the camera, and darker shades represent objects farther away. The depth map is generated using the Depth Prediction Transformer (DPT) model, which leverages deep learning techniques to infer the spatial layout of the scene and estimate depth accurately. By visualizing the depth map, users can gain insights into the three-dimensional structure of the scene captured in the input image, enabling applications such as augmented reality, autonomous navigation, and scene understanding.
+
 ![out](https://github.com/AkshayRamakrishnann/MidDas_3.0/assets/111365771/1103ce34-c600-4201-9f44-a78bcd5803d2)
 
