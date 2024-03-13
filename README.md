@@ -10,6 +10,6 @@ In this repository, we utilize the DPT model provided by Intel through the Trans
 ## Code Explaination
 The script utilizes the Hugging Face Transformers library to access the pre-trained DPT model, specifically the DPTImageProcessor and DPTForDepthEstimation classes. Initially, an image is loaded from a URL using the PIL library. Subsequently, the DPTImageProcessor preprocesses the image, converting it into a format suitable for the DPT model. The preprocessed image is then fed into the DPTForDepthEstimation model, which predicts the depth map of the scene depicted in the image. After obtaining the depth prediction, the script performs interpolation to resize the predicted depth map to match the original image's dimensions. Finally, the interpolated depth map is converted back into an image format and displayed. This script serves as a practical example of using pre-trained deep learning models for computer vision tasks, specifically depth estimation, showcasing the capabilities of the DPT model for understanding the spatial layout of scenes captured in images. Additionally, it demonstrates how to integrate Hugging Face's Transformers library for seamless access to pre-trained models and processing pipelines.
 
-## Setup
-To run the code in this repository, you'll need to have Python installed on your system. You can install the required dependencies using pip:
+## Output
+![out](https://github.com/AkshayRamakrishnann/MidDas_3.0/assets/111365771/1103ce34-c600-4201-9f44-a78bcd5803d2)
 
